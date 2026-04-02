@@ -1,0 +1,36 @@
+﻿Total rows: 10000
+Columns: ['age', 'sex', 'bmi', 'children', 'smoker', 'region', 'heart_rate', 'systolic_bp', 'diastolic_bp', 'family_heart_disease', 'previous_surgeries', 'chronic_kidney_disease', 'asthma', 'thyroid_disorder', 'mental_health_condition', 'alcohol_consumption', 'physical_activity_level', 'diet_type', 'sleep_hours', 'stress_level', 'occupation_risk_level', 'income_level', 'residence', 'education_level', 'diabetes', 'hypertension', 'cancer', 'health_risk_score', 'charges']
+
+Health Risk Score Stats:
+count    10000.0
+mean       100.0
+std          0.0
+min        100.0
+25%        100.0
+50%        100.0
+75%        100.0
+max        100.0
+Name: health_risk_score, dtype: float64
+
+Risk Category Distribution:
+risk_category
+High Risk      10000
+Low Risk           0
+Medium Risk        0
+Name: count, dtype: int64
+
+Sample of data for healthy-looking rows:
+Healthy sample size: 558
+     age   bmi smoker  health_risk_score
+10    28  23.8     no              100.0
+23    19  16.0     no              100.0
+68    21  21.7     no              100.0
+72    21  22.1     no              100.0
+145   22  22.5     no              100.0
+
+Healthy Sample Risk Categories:
+health_risk_score
+High Risk      558
+Low Risk         0
+Medium Risk      0
+Name: count, dtype: int64
