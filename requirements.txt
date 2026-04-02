@@ -6,5 +6,6 @@ openpyxl
 plotly
 fpdf
 matplotlib
+xgboost
 shap
 xlsxwriter
