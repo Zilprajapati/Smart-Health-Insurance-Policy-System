@@ -207,7 +207,7 @@ CHARGE_MODEL_PATH = os.path.join(MODEL_DIR, "advanced_charge_model.pkl")
 RISK_MODEL_PATH = os.path.join(MODEL_DIR, "risk_classifier.pkl")
 CLAIM_MODEL_PATH = os.path.join(MODEL_DIR, "claim_probability_model.pkl")
 COMPARISON_METRICS_PATH = os.path.join(MODEL_DIR, "comparison_metrics.pkl")
-DATA_PATH = r"d:/Smart_Insurance/advanced_health_insurance_dataset_10k.csv"
+DATA_PATH = "advanced_health_insurance_dataset_10k.csv"
 
 # --- HELPER FUNCTIONS ---
 
