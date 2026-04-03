@@ -403,7 +403,7 @@ def create_pdf_report(input_data, charge, risk):
         pdf.cell(200, 10, txt=f"{col}: {input_data[col].iloc[0]}", ln=1)
         
         
-    return bytes(pdf.output(dest='S'))
+    return pdf.output().encode('latin-1')
 
 def get_premium_breakdown(base_charge, df):
     # Rule-based breakdown logic
